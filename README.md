@@ -1,4 +1,3 @@
-````markdown
 # Stroke Prediction System
 
 This repository provides a complete end-to-end system for stroke risk prediction, combining:
