@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "logistic_cm.png",
+    "comment": "Most predictions are correct, but some stroke cases are missed and some non-stroke are falsely flagged."
+  },
+  {
+    "filename": "logistic_importance.png",
+    "comment": "Age, glucose level, and BMI have the strongest influence on stroke prediction."
+  },
+  {
+    "filename": "logistic_roc.png",
+    "comment": "High AUC indicates good ability to distinguish between stroke and non-stroke patients."
+  },
+  {
+    "filename": "logistic_threshold.png",
+    "comment": "Using a threshold of 0.3 increases stroke detection but also raises false positives."
+  },
+  {
+    "filename": "svm_cm.png",
+    "comment": "SVM predicts well overall, but still confuses some stroke and non-stroke cases."
+  },
+  {
+    "filename": "svm_importance.png",
+    "comment": "Key contributing features are similar to Logistic Regression, though weight magnitudes differ."
+  },
+  {
+    "filename": "svm_roc.png",
+    "comment": "High AUC shows strong class separation performance."
+  },
+  {
+    "filename": "svm_threshold.png",
+    "comment": "At threshold 0.3, recall improves but false alarms also increase."
+  },
+  {
+    "filename": "xgboost_cm.png",
+    "comment": "XGBoost achieves the fewest misclassifications among all models."
+  },
+  {
+    "filename": "xgboost_importance.png",
+    "comment": "Age and glucose are the most impactful factors for predicting stroke."
+  },
+  {
+    "filename": "xgboost_roc.png",
+    "comment": "Highest AUC, meaning XGBoost has the best discrimination ability."
+  },
+  {
+    "filename": "xgboost_threshold.png",
+    "comment": "Lowering the threshold improves sensitivity but increases false positives."
+  }
+]
