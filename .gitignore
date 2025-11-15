@@ -1,0 +1,28 @@
+# ==========================
+# 1. Python virtual env
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# ==========================
+# 2. R / Shiny
+# ==========================
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj
+
+# renv (cache)
+renv/library/
+renv/staging/
